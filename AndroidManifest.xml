@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:installLocation="internalOnly" package="com.piratemedia.ADWPaper" android:versionName="1.0.1" android:versionCode="2">
+      
+      <uses-permission android:name="android.permission.SET_WALLPAPER" />
+      
+    <application android:label="@string/theme_title" android:icon="@drawable/theme_icon">
+        <activity android:name=".main"
+                  android:label="@string/theme_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="org.adw.launcher.THEMES" />
+                <category android:name="android.intent.category.DEFAULT" />                
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="wallpaper"
+            android:label="Paper Picker"
+            android:icon="@drawable/theme_icon"
+            android:screenOrientation="nosensor"
+            android:finishOnCloseSystemDialogs="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+	<uses-sdk android:minSdkVersion="4"/>
+
+</manifest> 

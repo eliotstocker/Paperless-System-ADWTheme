@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Theme properties -->
+<string name="theme_title">Paperless System</string>
+<!-- http://developer.android.com/intl/de/guide/topics/resources/string-resource.html#FormattingAndStyling -->
+<string name="theme_description">A 100% hand drawn theme, so you can have that authentic pencil on crumpled paper look.
+Please also check out "Paper Picker" in the wallpapers menu for some great paper textures to go with this theme.
+for more info on everything i am doing checkout &lt;a href="http://piratemedia.tv">Pirate Media&lt;/a></string>
+<!-- Theme specific appearance settings -->
+<color name="bubble_color">#55000000</color>
+<color name="bubble_text_color">#FFFFFFFF</color>
+<color name="drawer_text_color">#FF000000</color>
+<integer name="bubble_radius">0</integer>
+<bool name="use_drawer_icons_bg">false</bool>
+<color name="desktop_indicator_color">#b6000000</color>
+<!-- ADWSettings theme config  -->
+<bool name="config_uiTint">false</bool>
+<bool name="config_uiAppsBg">false</bool>
+<bool name="config_uiABBg">false</bool>
+<integer name="config_highlights_color">0x00000000</integer>
+<integer name="config_highlights_color_focus">0x00000000</integer>
+<bool name="config_new_selectors">false</bool>
+<integer name="config_drawer_color">0xccFFFFFF</integer>
+<bool name="config_drawerLabels">true</bool>
+<bool name="config_fadeDrawerLabels">true</bool>
+<bool name="config_desktop_indicator">true</bool>
+<!-- 1=top dots, 2=top slider, 3=bottom slider -->
+<string name="config_desktop_indicator_type">1</string>
+</resources>
